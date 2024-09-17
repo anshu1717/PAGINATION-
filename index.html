@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagination</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="pagination">
+            <button id="btn1" onclick="backBtn()"><i class='bx bx-chevron-left-circle'></i>prev</button>
+            <ul>
+                <li class="link active" value="1" onclick="activeLink()">1</li>
+                <li class="link" value="2" onclick="activeLink()">2</li>
+                <li class="link" value="3" onclick="activeLink()">3</li>
+                <li class="link" value="4" onclick="activeLink()">4</li>
+                <li class="link" value="5" onclick="activeLink()">5</li>
+                <li class="link" value="6" onclick="activeLink()">6</li>
+            </ul>
+            <button id="btn2" onclick="nextBtn()">next<i class='bx bx-chevron-right-circle' ></i></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
